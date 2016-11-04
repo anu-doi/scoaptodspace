@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Search-Engine-Total-Number-Of-Results: 6 -->
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+<record>
+  <controlfield tag="001">17310</controlfield>
+  <controlfield tag="005">20161003221603.0</controlfield>
+  <datafield tag="022" ind1=" " ind2=" ">
+    <subfield code="a">0550-3213</subfield>
+  </datafield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.nuclphysb.2016.09.016</subfield>
+    <subfield code="2">DOI</subfield>
+    <subfield code="t">2016-09-30T09:08:07Z</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Kuniba, A.</subfield>
+    <subfield code="v">Institute of Physics, University of Tokyo, Komaba, Tokyo, 153-8902, Japan</subfield>
+    <subfield code="m">atsuo@gokutan.c.u-tokyo.ac.jp</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Stochastic R matrix for Uq(An(1))</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-10-03</subfield>
+    <subfield code="b">Elsevier</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We show that the quantum R matrix for symmetric tensor representations of Uq(An(1)) satisfies the sum rule required for its stochastic interpretation under a suitable gauge. Its matrix elements at a special point of the spectral parameter are found to factorize into the form that naturally extends Povolotsky's local transition rate in the q -Hahn process for n=1 . Based on these results we formulate new discrete and continuous time integrable Markov processes on a one-dimensional chain in terms of n species of particles obeying asymmetric stochastic dynamics. Bethe ansatz eigenvalues of the Markov matrices are also given.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">CC-BY-3.0</subfield>
+    <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Author(s)</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Mangazeev, V.V.</subfield>
+    <subfield code="v">Department of Theoretical Physics, Research School of Physics and Engineering, Australian National University, ACT, Canberra, 0200, Australia</subfield>
+    <subfield code="m">vladimir.mangazeev@anu.edu.au</subfield>
+    <subfield code="w">Australia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Maruyama, S.</subfield>
+    <subfield code="v">Institute of Physics, University of Tokyo, Komaba, Tokyo, 153-8902, Japan</subfield>
+    <subfield code="m">maruyama@gokutan.c.u-tokyo.ac.jp</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Okado, M.</subfield>
+    <subfield code="v">Department of Mathematics, Osaka City University, 3-3-138, Sugimoto, Sumiyoshi-ku, Osaka, 558-8585, Japan</subfield>
+    <subfield code="m">okado@sci.osaka-cu.ac.jp</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Nuclear Physics B</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">492185</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/17310/files/main.pdf</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">750886</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/17310/files/main.xml</subfield>
+  </datafield>
+</record>
+<record>
+  <controlfield tag="001">17153</controlfield>
+  <controlfield tag="005">20161003221603.0</controlfield>
+  <datafield tag="022" ind1=" " ind2=" ">
+    <subfield code="a">0550-3213</subfield>
+  </datafield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.nuclphysb.2016.09.003</subfield>
+    <subfield code="2">DOI</subfield>
+    <subfield code="t">2016-09-16T01:06:23Z</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Blondeau-Fournier, O.</subfield>
+    <subfield code="v">Department of Mathematics, King's College London, Strand, WC2R 2LS, United Kingdom</subfield>
+    <subfield code="m">olivier.blondeau-fournier@kcl.ac.uk</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">The super-Virasoro singular vectors and Jack superpolynomials relationship revisited</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-10-03</subfield>
+    <subfield code="b">Elsevier</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A recent novel derivation of the representation of Virasoro singular vectors in terms of Jack polynomials is extended to the supersymmetric case. The resulting expression of a generic super-Virasoro singular vector is given in terms of a simple differential operator (whose form is characteristic of the sector, Neveu–Schwarz or Ramond) acting on a Jack superpolynomial. The latter is indexed by a superpartition depending upon the two integers r,s that specify the reducible module under consideration. The corresponding singular vector (at grade rs/2 ), when expanded as a linear combination of Jack superpolynomials, results in an expression that (in addition to being proved) turns out to be more compact than those that have been previously conjectured. As an aside, in relation with the differential operator alluded to above, a remarkable property of the Jack superpolynomials at α=−3 is pointed out.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">CC-BY-3.0</subfield>
+    <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Authors</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Mathieu, P.</subfield>
+    <subfield code="v">Département de Physique, de Génie Physique et d'Optique, Université Laval, Québec, G1V 0A6, Canada</subfield>
+    <subfield code="m">pmathieu@phy.ulaval.ca</subfield>
+    <subfield code="w">Canada</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ridout, D.</subfield>
+    <subfield code="v">School of Mathematics and Statistics, University of Melbourne, Parkville, 3010, Australia</subfield>
+    <subfield code="m">david.ridout@unimelb.edu.au</subfield>
+    <subfield code="w">Australia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wood, S.</subfield>
+    <subfield code="v">Mathematical Sciences Institute, Australian National University, Canberra, 2601, Australia</subfield>
+    <subfield code="m">woodsi@cardiff.ac.uk</subfield>
+    <subfield code="w">Australia</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Nuclear Physics B</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">444925</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/17153/files/main.pdf</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">617026</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/17153/files/main.xml</subfield>
+  </datafield>
+</record>
+<record>
+  <controlfield tag="001">16936</controlfield>
+  <controlfield tag="005">20160919212151.0</controlfield>
+  <datafield tag="022" ind1=" " ind2=" ">
+    <subfield code="a">0550-3213</subfield>
+  </datafield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.nuclphysb.2016.08.031</subfield>
+    <subfield code="2">DOI</subfield>
+    <subfield code="t">2016-09-02T10:28:06Z</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Bazhanov, Vladimir V.</subfield>
+    <subfield code="v">Department of Theoretical Physics, Research School of Physics and Engineering, Australian National University, Canberra, ACT, 2601, Australia</subfield>
+    <subfield code="m">vladimir.bazhanov@anu.edu.au</subfield>
+    <subfield code="w">Australia</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Vacuum energy of the Bukhvostov–Lipatov model</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-09-19</subfield>
+    <subfield code="b">Elsevier</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">Bukhvostov and Lipatov have shown that weakly interacting instantons and anti-instantons in the O(3) non-linear sigma model in two dimensions are described by an exactly soluble model containing two coupled Dirac fermions. We propose an exact formula for the vacuum energy of the model for twisted boundary conditions, expressing it through a special solution of the classical sinh-Gordon equation. The formula perfectly matches predictions of the standard renormalized perturbation theory at weak couplings as well as the conformal perturbation theory at short distances. Our results also agree with the Bethe ansatz solution of the model. A complete proof the proposed expression for the vacuum energy based on a combination of the Bethe ansatz techniques and the classical inverse scattering transform method is presented in the second part of this work [42] .</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">CC-BY-3.0</subfield>
+    <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lukyanov, Sergei L.</subfield>
+    <subfield code="v">NHETC, Department of Physics and Astronomy, Rutgers University, Piscataway, NJ, 08855-0849, USA</subfield>
+    <subfield code="v">L.D. Landau Institute for Theoretical Physics, Chernogolovka, 142432, Russia</subfield>
+    <subfield code="w">Russia</subfield>
+    <subfield code="w">USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Runov, Boris A.</subfield>
+    <subfield code="v">Department of Theoretical Physics, Research School of Physics and Engineering, Australian National University, Canberra, ACT, 2601, Australia</subfield>
+    <subfield code="w">Australia</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Nuclear Physics B</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">525618</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/16936/files/main.xml</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">537799</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/16936/files/main.pdf</subfield>
+  </datafield>
+</record>
+<record>
+  <controlfield tag="001">15485</controlfield>
+  <controlfield tag="005">20160915173314.0</controlfield>
+  <datafield tag="022" ind1=" " ind2=" ">
+    <subfield code="a">0550-3213</subfield>
+  </datafield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.nuclphysb.2016.04.038</subfield>
+    <subfield code="2">DOI</subfield>
+    <subfield code="t">2016-05-05T01:39:30Z</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Jurčo, Branislav</subfield>
+    <subfield code="v">Mathematical Institute, Faculty of Mathematics and Physics, Charles University, Prague, 186 75, Czech Republic</subfield>
+    <subfield code="m">jurco@karlin.mff.cuni.cz</subfield>
+    <subfield code="w">Czech Republic</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Heterotic reduction of Courant algebroid connections and Einstein–Hilbert actions</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-07-11</subfield>
+    <subfield code="b">Elsevier</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We discuss Levi-Civita connections on Courant algebroids. We define an appropriate generalization of the curvature tensor and compute the corresponding scalar curvatures in the exact and heterotic case, leading to generalized (bosonic) Einstein–Hilbert type of actions known from supergravity. In particular, we carefully analyze the process of the reduction for the generalized metric, connection, curvature tensor and the scalar curvature.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">CC-BY-3.0</subfield>
+    <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Author(s)</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Vysoký, Jan</subfield>
+    <subfield code="v">Institute of Mathematics of the Czech Academy of Sciences, Žitná 25, Prague, 115 67, Czech Republic</subfield>
+    <subfield code="v">Mathematical Sciences Institute, Australian National University, Acton, ACT, 2601, Australia</subfield>
+    <subfield code="m">vysoky@math.cas.cz</subfield>
+    <subfield code="w">Australia</subfield>
+    <subfield code="w">Czech Republic</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Nuclear Physics B</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">562441</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/15485/files/main.pdf</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">831995</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/15485/files/main.xml</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">858134</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/15485/files/main.pdf?subformat=pdfa</subfield>
+    <subfield code="x">pdfa</subfield>
+  </datafield>
+</record><record>
+  <controlfield tag="001">17395</controlfield>
+  <controlfield tag="005">20161004223914.0</controlfield>
+  <datafield tag="022" ind1=" " ind2=" ">
+    <subfield code="a">0370-2693</subfield>
+  </datafield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.physletb.2016.09.058</subfield>
+    <subfield code="2">DOI</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Söderström, P.-A.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="m">pasoder@ribf.riken.jp</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">K -mixing in the doubly mid-shell nuclide 170 Dy and the role of vibrational degeneracy</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-10-04</subfield>
+    <subfield code="b">Elsevier</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">A detailed study of the structure of the doubly mid-shell nucleus Dy104166170 has been carried out, following isomeric and β decay. We have measured the yrast band up to the spin-parity Jπ=6+ state, the K=2 γ -vibration band up to the 5+ state, a low-lying negative-parity band based on a 2− state that could be a candidate for the lowest energy octupole vibration state within this nucleus, and a candidate for the Kπ=6+ two quasi-particle isomer. This state was determined to have an excitation energy of 1643.91(23) keV and a half life of 0.99(4) μs, with a reduced hindrance for its decay to the ground-state band an order of magnitude lower than predicted by NpNn systematics. This is interpreted as being due to γ -vibrational mixing from a near degeneracy of the isomer and the 6+ state of the γ band. Furthermore, the parent nucleus 170 Tb has been determined to have a half-life of 0.91(−13+18) s with a possible spin-parity of 2− .</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">CC-BY-3.0</subfield>
+    <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Author(s)</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">K isomer</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Dysprosium</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Mid-shell</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">γ -Ray spectroscopy</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Walker, P.M.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wu, J.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="v">School of Physics, Peking University, Beijing, 100871, China</subfield>
+    <subfield code="w">Japan</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Liu, H.L.</subfield>
+    <subfield code="v">Department of Applied Physics, School of Science, Xi'an Jiaotong University, Xi'an, 710049, China</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Regan, P.H.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="v">National Physical Laboratory, Teddington, Middlesex, TW11 0LW, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Watanabe, H.</subfield>
+    <subfield code="v">International Research Center for Nuclei and Particles in the Cosmos, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="v">School of Physics and Nuclear Energy Engineering, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Doornenbal, P.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Korkulu, Z.</subfield>
+    <subfield code="v">Institute for Nuclear Research, Hungarian Academy of Sciences, P.O. Box 51, Debrecen, H-4001, Hungary</subfield>
+    <subfield code="w">Hungary</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lee, P.</subfield>
+    <subfield code="v">Department of Physics, Chung-Ang University, Seoul, 156-756, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Liu, J.J.</subfield>
+    <subfield code="v">Department of Physics, the University of Hong Kong, Pokfulam Road, Hong Kong</subfield>
+    <subfield code="w">Hong Kong</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lorusso, G.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="v">National Physical Laboratory, Teddington, Middlesex, TW11 0LW, United Kingdom</subfield>
+    <subfield code="w">Japan</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nishimura, S.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Phong, V.H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="v">VNU Hanoi University of Science, 334 Nguyen Trai, Thanh Xuan, Hanoi, Viet Nam</subfield>
+    <subfield code="w">Japan</subfield>
+    <subfield code="w">Vietnam</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sumikama, T.</subfield>
+    <subfield code="v">Department of Physics, Tohoku University, Aoba, Sendai, Miyagi, 980-8578, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Xu, F.R.</subfield>
+    <subfield code="v">School of Physics, Peking University, Beijing, 100871, China</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Yagi, A.</subfield>
+    <subfield code="v">Department of Physics, Osaka University, Machikaneyama-machi 1-1, Toyonaka, Osaka, 560-0043, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhang, G.X.</subfield>
+    <subfield code="v">School of Physics and Nuclear Energy Engineering, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ahn, D.S.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Alharbi, T.</subfield>
+    <subfield code="v">Department of Physics, College of Science in Zulfi, Almajmaah University, P.O. Box 1712, 11932, Saudi Arabia</subfield>
+    <subfield code="w">Saudi Arabia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Baba, H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Browne, F.</subfield>
+    <subfield code="v">School of Computing, Engineering and Mathematics, University of Brighton, Brighton, BN2 4GJ, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bruce, A.M.</subfield>
+    <subfield code="v">School of Computing, Engineering and Mathematics, University of Brighton, Brighton, BN2 4GJ, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Carroll, R.J.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Chae, K.Y.</subfield>
+    <subfield code="v">Department of Physics, Sungkyunkwan University, Suwon, 440-746, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dombradi, Zs.</subfield>
+    <subfield code="v">Institute for Nuclear Research, Hungarian Academy of Sciences, P.O. Box 51, Debrecen, H-4001, Hungary</subfield>
+    <subfield code="w">Hungary</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Estrade, A.</subfield>
+    <subfield code="v">School of Physics and Astronomy, University of Edinburgh, Edinburgh, EH9 3JZ, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Fukuda, N.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Griffin, C.</subfield>
+    <subfield code="v">School of Physics and Astronomy, University of Edinburgh, Edinburgh, EH9 3JZ, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ideguchi, E.</subfield>
+    <subfield code="v">Department of Physics, Osaka University, Machikaneyama-machi 1-1, Toyonaka, Osaka, 560-0043, Japan</subfield>
+    <subfield code="v">Research Center for Nuclear Physics (RCNP), Osaka University, Ibaraki, Osaka, 567-0047, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Inabe, N.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Isobe, T.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kanaoka, H.</subfield>
+    <subfield code="v">Department of Physics, Osaka University, Machikaneyama-machi 1-1, Toyonaka, Osaka, 560-0043, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kanaya, S.</subfield>
+    <subfield code="v">Department of Physics, Osaka University, Machikaneyama-machi 1-1, Toyonaka, Osaka, 560-0043, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kojouharov, I.</subfield>
+    <subfield code="v">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Darmstadt, 64291, Germany</subfield>
+    <subfield code="w">Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kondev, F.G.</subfield>
+    <subfield code="v">Nuclear Engineering Division, Argonne National Laboratory, Argonne, IL, 60439, USA</subfield>
+    <subfield code="w">USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kubo, T.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kubono, S.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kurz, N.</subfield>
+    <subfield code="v">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Darmstadt, 64291, Germany</subfield>
+    <subfield code="w">Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kuti, I.</subfield>
+    <subfield code="v">Institute for Nuclear Research, Hungarian Academy of Sciences, P.O. Box 51, Debrecen, H-4001, Hungary</subfield>
+    <subfield code="w">Hungary</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lalkovski, S.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lane, G.J.</subfield>
+    <subfield code="v">Department of Nuclear Physics, R.S.P.E., Australian National University, Canberra, A.C.T., 0200, Australia</subfield>
+    <subfield code="w">Australia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lee, E.J.</subfield>
+    <subfield code="v">Department of Physics, Sungkyunkwan University, Suwon, 440-746, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lee, C.S.</subfield>
+    <subfield code="v">Department of Physics, Chung-Ang University, Seoul, 156-756, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lotay, G.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Moon, C.-B.</subfield>
+    <subfield code="v">Hoseo University, Asan, Chungnam, 336-795, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nishizuka, I.</subfield>
+    <subfield code="v">Department of Physics, Tohoku University, Aoba, Sendai, Miyagi, 980-8578, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Niţă, C.R.</subfield>
+    <subfield code="v">School of Computing, Engineering and Mathematics, University of Brighton, Brighton, BN2 4GJ, United Kingdom</subfield>
+    <subfield code="v">Horia Hulubei National Institute of Physics and Nuclear Engineering (IFIN-HH), Bucharest, RO-077125, Romania</subfield>
+    <subfield code="w">Romania</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Odahara, A.</subfield>
+    <subfield code="v">Department of Physics, Osaka University, Machikaneyama-machi 1-1, Toyonaka, Osaka, 560-0043, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Patel, Z.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Podolyák, Zs.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Roberts, O.J.</subfield>
+    <subfield code="v">School of Physics, University College Dublin, Belfield, Dublin 4, Ireland</subfield>
+    <subfield code="w">Ireland</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sakurai, H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="v">Department of Physics, University of Tokyo, Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Schaffner, H.</subfield>
+    <subfield code="v">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Darmstadt, 64291, Germany</subfield>
+    <subfield code="w">Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Shand, C.M.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Suzuki, H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Takeda, H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Wako-shi, Saitama, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Terashima, S.</subfield>
+    <subfield code="v">School of Physics and Nuclear Energy Engineering, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Vajta, Zs.</subfield>
+    <subfield code="v">Institute for Nuclear Research, Hungarian Academy of Sciences, P.O. Box 51, Debrecen, H-4001, Hungary</subfield>
+    <subfield code="w">Hungary</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Valiente-Dòbon, J.J.</subfield>
+    <subfield code="v">Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Legnaro, Legnaro, 35020, Italy</subfield>
+    <subfield code="w">Italy</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Xu, Z.Y.</subfield>
+    <subfield code="v">Department of Physics, the University of Hong Kong, Pokfulam Road, Hong Kong</subfield>
+    <subfield code="w">Hong Kong</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Physics letters B</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">134688</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/17395/files/main.xml</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">800199</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/17395/files/main.pdf</subfield>
+  </datafield>
+</record>
+<record>
+  <controlfield tag="001">16532</controlfield>
+  <controlfield tag="005">20160916005732.0</controlfield>
+  <datafield tag="022" ind1=" " ind2=" ">
+    <subfield code="a">0370-2693</subfield>
+  </datafield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.physletb.2016.07.057</subfield>
+    <subfield code="2">DOI</subfield>
+    <subfield code="t">2016-07-26T16:33:45Z</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Watanabe, H.</subfield>
+    <subfield code="v">School of Physics and Nuclear Energy Engineering, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="v">International Research Center for Nuclei and Particles in the Cosmos, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="m">hiroshi@ribf.riken.jp</subfield>
+    <subfield code="w">Japan</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Long-lived K isomer and enhanced γ vibration in the neutron-rich nucleus 172 Dy: Collectivity beyond double midshell</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-08-31</subfield>
+    <subfield code="b">Elsevier</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">The level structure of 172 Dy has been investigated for the first time by means of decay spectroscopy following in-flight fission of a 238 U beam. A long-lived isomeric state with T1/2=0.71(5) s and Kπ=8− has been identified at 1278 keV, which decays to the ground-state and γ -vibrational bands through hindered electromagnetic transitions, as well as to the daughter nucleus 172 Ho via allowed β decays. The robust nature of the Kπ=8− isomer and the ground-state rotational band reveals an axially-symmetric structure for this nucleus. Meanwhile, the γ -vibrational levels have been identified at unusually low excitation energy compared to the neighboring well-deformed nuclei, indicating the significance of the microscopic effect on the non-axial collectivity in this doubly mid-shell region. The underlying mechanism of enhanced γ vibration is discussed in comparison with the deformed Quasiparticle Random-Phase Approximation based on a Skyrme energy-density functional.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">CC-BY-3.0</subfield>
+    <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Author(s)</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">172 Dy</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">K isomer</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Decay spectroscopy</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">Axial symmetry</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">γ vibration</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Zhang, G.X.</subfield>
+    <subfield code="v">School of Physics and Nuclear Energy Engineering, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="v">International Research Center for Nuclei and Particles in the Cosmos, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Yoshida, K.</subfield>
+    <subfield code="v">Graduate School of Science and Technology, Niigata University, Niigata, 950-2181, Japan</subfield>
+    <subfield code="v">Center for Computational Sciences, University of Tsukuba, Tsukuba, 305-8577, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Walker, P.M.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Liu, J.J.</subfield>
+    <subfield code="v">Department of Physics, the University of Hong Kong, Pokfulam Road, Hong Kong</subfield>
+    <subfield code="w">Hong Kong</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Wu, J.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="v">Department of Physics, Peking University, Beijing, 100871, China</subfield>
+    <subfield code="w">Japan</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Regan, P.H.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="v">National Physical Laboratory, Teddington, Middlesex, TW11 0LW, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Söderström, P.-A.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kanaoka, H.</subfield>
+    <subfield code="v">Department of Physics, Osaka University, Machikaneyama-machi 1-1, Osaka, Toyonaka, 560-0043, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Korkulu, Z.</subfield>
+    <subfield code="v">MTA Atomki, P.O. Box 51, Debrecen, H-4001, Hungary</subfield>
+    <subfield code="w">Hungary</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lee, P.S.</subfield>
+    <subfield code="v">Department of Physics, Chung-Ang University, Seoul, 156-756, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nishimura, S.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Yagi, A.</subfield>
+    <subfield code="v">Department of Physics, Osaka University, Machikaneyama-machi 1-1, Osaka, Toyonaka, 560-0043, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ahn, D.S.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Alharbi, T.</subfield>
+    <subfield code="v">Department of Physics, College of Science in Zulfi, Almajmaah University, P.O. Box 1712, 11932, Saudi Arabia</subfield>
+    <subfield code="w">Saudi Arabia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Baba, H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Browne, F.</subfield>
+    <subfield code="v">School of Computing Engineering and Mathematics, University of Brighton, Brighton, BN2 4GJ, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Bruce, A.M.</subfield>
+    <subfield code="v">School of Computing Engineering and Mathematics, University of Brighton, Brighton, BN2 4GJ, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Carroll, R.J.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Chae, K.Y.</subfield>
+    <subfield code="v">Department of Physics, Sungkyunkwan University, Suwon, 440-746, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Dombradi, Zs.</subfield>
+    <subfield code="v">MTA Atomki, P.O. Box 51, Debrecen, H-4001, Hungary</subfield>
+    <subfield code="w">Hungary</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Doornenbal, P.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Estrade, A.</subfield>
+    <subfield code="v">School of Physics and Astronomy, University of Edinburgh, Edinburgh, EH9 3JZ, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Fukuda, N.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Griffin, C.</subfield>
+    <subfield code="v">School of Physics and Astronomy, University of Edinburgh, Edinburgh, EH9 3JZ, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Ideguchi, E.</subfield>
+    <subfield code="v">Research Center for Nuclear Physics (RCNP), Osaka University, Osaka, Ibaraki, 567-0047, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Inabe, N.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Isobe, T.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kanaya, S.</subfield>
+    <subfield code="v">Department of Physics, Osaka University, Machikaneyama-machi 1-1, Osaka, Toyonaka, 560-0043, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kojouharov, I.</subfield>
+    <subfield code="v">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Darmstadt, 64291, Germany</subfield>
+    <subfield code="w">Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kondev, F.G.</subfield>
+    <subfield code="v">Nuclear Engineering Division, Argonne National Laboratory, Argonne, IL, 60439, USA</subfield>
+    <subfield code="w">USA</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kubo, T.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kubono, S.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kurz, N.</subfield>
+    <subfield code="v">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Darmstadt, 64291, Germany</subfield>
+    <subfield code="w">Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Kuti, I.</subfield>
+    <subfield code="v">MTA Atomki, P.O. Box 51, Debrecen, H-4001, Hungary</subfield>
+    <subfield code="w">Hungary</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lalkovski, S.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lane, G.J.</subfield>
+    <subfield code="v">Department of Nuclear Physics, R.S.P.E., Australian National University, Canberra, A.C.T, 0200, Australia</subfield>
+    <subfield code="w">Australia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lee, C.S.</subfield>
+    <subfield code="v">Department of Physics, Chung-Ang University, Seoul, 156-756, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lee, E.J.</subfield>
+    <subfield code="v">Department of Physics, Sungkyunkwan University, Suwon, 440-746, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lorusso, G.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="v">National Physical Laboratory, Teddington, Middlesex, TW11 0LW, United Kingdom</subfield>
+    <subfield code="w">Japan</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Lotay, G.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Moon, C.-B.</subfield>
+    <subfield code="v">Department of Display Engineering, Hoseo University, Chung-Nam, 336-795, Republic of Korea</subfield>
+    <subfield code="w">South Korea</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nishizuka, I.</subfield>
+    <subfield code="v">Department of Physics, Tohoku University, Aoba, Sendai, Miyagi, 980-8578, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Nita, C.R.</subfield>
+    <subfield code="v">School of Computing Engineering and Mathematics, University of Brighton, Brighton, BN2 4GJ, United Kingdom</subfield>
+    <subfield code="v">Horia Hulubei National Institute for R&amp;D; in Physics, Nuclear Engineering (IFIN-HH), Bucharest, RO-077125, Romania</subfield>
+    <subfield code="w">Romania</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Odahara, A.</subfield>
+    <subfield code="v">Department of Physics, Osaka University, Machikaneyama-machi 1-1, Osaka, Toyonaka, 560-0043, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Patel, Z.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Phong, V.H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="v">VNU Hanoi University of Science, 334 Nguyen Trai, Hanoi, Thanh Xuan, Viet Nam</subfield>
+    <subfield code="w">Japan</subfield>
+    <subfield code="w">Vietnam</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Podolyák, Zs.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Roberts, O.J.</subfield>
+    <subfield code="v">School of Physics, University College Dublin, Dublin 4, Belfield, Ireland</subfield>
+    <subfield code="w">Ireland</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sakurai, H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Schaffner, H.</subfield>
+    <subfield code="v">GSI Helmholtzzentrum für Schwerionenforschung GmbH, Darmstadt, 64291, Germany</subfield>
+    <subfield code="w">Germany</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Shand, C.M.</subfield>
+    <subfield code="v">Department of Physics, University of Surrey, Guildford, GU2 7XH, United Kingdom</subfield>
+    <subfield code="w">UK</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Shimizu, Y.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Sumikama, T.</subfield>
+    <subfield code="v">Department of Physics, Tohoku University, Aoba, Sendai, Miyagi, 980-8578, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Suzuki, H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Takeda, H.</subfield>
+    <subfield code="v">RIKEN Nishina Center, 2-1 Hirosawa, Saitama, Wako, 351-0198, Japan</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Terashima, S.</subfield>
+    <subfield code="v">School of Physics and Nuclear Energy Engineering, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="v">International Research Center for Nuclei and Particles in the Cosmos, Beihang University, Beijing, 100191, China</subfield>
+    <subfield code="w">China</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Vajta, Zs.</subfield>
+    <subfield code="v">MTA Atomki, P.O. Box 51, Debrecen, H-4001, Hungary</subfield>
+    <subfield code="w">Hungary</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Valiente-Dóbon, J.J.</subfield>
+    <subfield code="v">Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Legnaro, Legnaro, 35020, Italy</subfield>
+    <subfield code="w">Italy</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Xu, Z.Y.</subfield>
+    <subfield code="v">Department of Physics, the University of Hong Kong, Pokfulam Road, Hong Kong</subfield>
+    <subfield code="w">Hong Kong</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Physics letters B</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">171229</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/16532/files/main.xml</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">607811</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/16532/files/main.pdf</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">943336</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/16532/files/main.pdf?subformat=pdfa</subfield>
+    <subfield code="x">pdfa</subfield>
+  </datafield>
+</record>
+</collection>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Search-Engine-Total-Number-Of-Results: 6 -->
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+<record>
+  <controlfield tag="001">17310</controlfield>
+  <controlfield tag="005">20161003221603.0</controlfield>
+  <datafield tag="022" ind1=" " ind2=" ">
+    <subfield code="a">0550-3213</subfield>
+  </datafield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">10.1016/j.nuclphysb.2016.09.016</subfield>
+    <subfield code="2">DOI</subfield>
+    <subfield code="t">2016-09-30T09:08:07Z</subfield>
+  </datafield>
+  <datafield tag="100" ind1=" " ind2=" ">
+    <subfield code="a">Kuniba, A.</subfield>
+    <subfield code="v">Institute of Physics, University of Tokyo, Komaba, Tokyo, 153-8902, Japan</subfield>
+    <subfield code="m">atsuo@gokutan.c.u-tokyo.ac.jp</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="245" ind1=" " ind2=" ">
+    <subfield code="a">Stochastic R matrix for Uq(An(1))</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="c">2016-10-03</subfield>
+    <subfield code="b">Elsevier</subfield>
+  </datafield>
+  <datafield tag="520" ind1=" " ind2=" ">
+    <subfield code="a">We show that the quantum R matrix for symmetric tensor representations of Uq(An(1)) satisfies the sum rule required for its stochastic interpretation under a suitable gauge. Its matrix elements at a special point of the spectral parameter are found to factorize into the form that naturally extends Povolotsky's local transition rate in the q -Hahn process for n=1 . Based on these results we formulate new discrete and continuous time integrable Markov processes on a one-dimensional chain in terms of n species of particles obeying asymmetric stochastic dynamics. Bethe ansatz eigenvalues of the Markov matrices are also given.</subfield>
+    <subfield code="9">Elsevier</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">CC-BY-3.0</subfield>
+    <subfield code="u">http://creativecommons.org/licenses/by/3.0/</subfield>
+  </datafield>
+  <datafield tag="542" ind1=" " ind2=" ">
+    <subfield code="f">The Author(s)</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">inflation</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">string theory and cosmology</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="653" ind1="1" ind2=" ">
+    <subfield code="a">supersymmetry and cosmology</subfield>
+    <subfield code="9">author</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Mangazeev, V.V.</subfield>
+    <subfield code="v">Department of Theoretical Physics, Research School of Physics and Engineering, Australian National University, ACT, Canberra, 0200, Australia</subfield>
+    <subfield code="m">vladimir.mangazeev@anu.edu.au</subfield>
+    <subfield code="w">Australia</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Maruyama, S.</subfield>
+    <subfield code="v">Institute of Physics, University of Tokyo, Komaba, Tokyo, 153-8902, Japan</subfield>
+    <subfield code="m">maruyama@gokutan.c.u-tokyo.ac.jp</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="700" ind1=" " ind2=" ">
+    <subfield code="a">Okado, M.</subfield>
+    <subfield code="v">Department of Mathematics, Osaka City University, 3-3-138, Sugimoto, Sumiyoshi-ku, Osaka, 558-8585, Japan</subfield>
+    <subfield code="m">okado@sci.osaka-cu.ac.jp</subfield>
+    <subfield code="w">Japan</subfield>
+  </datafield>
+  <datafield tag="773" ind1=" " ind2=" ">
+    <subfield code="p">Nuclear Physics B</subfield>
+    <subfield code="v">894</subfield>
+    <subfield code="n">05</subfield>
+    <subfield code="c">621-664</subfield>
+    <subfield code="y">2016</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">492185</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/17310/files/main.pdf</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2=" ">
+    <subfield code="s">750886</subfield>
+    <subfield code="u">http://repo.scoap3.org/record/17310/files/main.xml</subfield>
+  </datafield>
+</record>
+</collection>
