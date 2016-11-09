@@ -2,14 +2,31 @@ package au.edu.anu.scoap.processor;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.StringWriter;
+import java.io.Writer;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
+import java.util.Scanner;
 import java.util.Set;
 import java.util.UUID;
 
+import javax.mail.BodyPart;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Multipart;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
 import javax.xml.bind.JAXBException;
 
 import org.apache.commons.io.FileUtils;
@@ -41,9 +58,14 @@ import au.edu.anu.scoap.xml.Record;
 public class ScoapProcessor {
 	static final Logger LOGGER = LoggerFactory.getLogger(ScoapProcessor.class);
 	
+	private static final String COMMA_DELIMITER = ",";
+	private static final String NEW_LINE_SEPARATOR = "\n";
+	private static final String QUOTATION = "\"";
+	
 	private String earliestDate;
 	private String latestDate;
 	private String collectionName;
+	private List<String[]> matches;
 	
 	/**
 	 * Constructor 
@@ -81,11 +103,13 @@ public class ScoapProcessor {
 		QueryDspace queryDspace = new QueryDspace();
 		DSpaceObjectParser parser = new DSpaceObjectParser();
 		
+		matches = new ArrayList<String[]>();
 		for (Record record : records) {
 			boolean match = queryDspace.checkForMatch(record);
 			DSpaceObject dspaceObject = new DSpaceObject(record);
 			if (match) {
 				LOGGER.debug("Potential Match found for: {}", dspaceObject.getTitles());
+				matches.addAll(queryDspace.getMatches());
 			}
 			else {
 				LOGGER.debug("No match found for: {}", dspaceObject.getTitles());
@@ -121,6 +145,9 @@ public class ScoapProcessor {
 		SwordProcessor processor = new SwordProcessor(swordClient, info, dataProvider);
 		try {
 			processor.process();
+			if (matches.size() > 0) {
+				sendDuplicateList(matches);
+			}
 		}
 		catch (WorkflowException e) {
 			LOGGER.error("Exception processing sword records", e);
@@ -235,5 +262,176 @@ public class ScoapProcessor {
 
 		String filename = String.format("%02d_%s_%s_%s.%s", counter, firstAuthor, title, year, fileExtension);
 		return filename;
+	}
+	
+	/**
+	 * Create a CSV file to mail with the potential duplicates
+	 * 
+	 * @param values The values to use
+	 * @return A writer containing the information
+	 */
+	private Writer generateCSV(List<String[]> values) {
+		StringWriter writer = new StringWriter();
+		writer.append("handle,scoap");
+		writer.append(NEW_LINE_SEPARATOR);
+		
+		String handlePrefix = ScoapConfiguration.getProperty("staging", "handle.prefix");
+		String stagingPrefix = ScoapConfiguration.getProperty("staging", "scoap.prefix");
+		
+		for (String[] row : values) {
+			writer.append(QUOTATION);
+			writer.append(handlePrefix);
+			writer.append(row[0]);
+			writer.append(QUOTATION);
+			writer.append(COMMA_DELIMITER);
+			writer.append(QUOTATION);
+			writer.append(stagingPrefix);
+			writer.append(row[1]);
+			writer.append(QUOTATION);
+			writer.append(NEW_LINE_SEPARATOR);
+		}
+		
+		return writer;
+	}
+	
+	/**
+	 * Email a duplicate list
+	 * 
+	 * @param matches The list of matches to use
+	 */
+	private void sendDuplicateList(List<String[]> matches) {
+		Multipart multipart = new MimeMultipart();
+		
+		Writer writer = generateCSV(matches);
+		
+		Session session = getSession();
+		String from = getFromAddress();
+		
+		Set<String> recipients = getRecipients();
+		
+		String messageText = "Please find attached the potential duplicate matches that were found during processing Scoap3 metadata";
+		try {
+			messageText = getMessageText("mail/mail.txt");
+		}
+		catch (IOException e) {
+			// Do nothing instead use default text.
+		}
+		
+		try {
+			MimeMessage message = new MimeMessage(session);
+			message.setFrom(new InternetAddress(from));
+			for (String to : recipients) {
+				message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
+			}
+			message.setSubject("Duplicates found from Scoap3");
+			
+			BodyPart messageBodyPart = new MimeBodyPart();
+			messageBodyPart.setText(messageText);
+			multipart.addBodyPart(messageBodyPart);
+			
+			messageBodyPart = new MimeBodyPart();
+			messageBodyPart.setFileName("duplicate_scoap_records.csv");
+			messageBodyPart.setText(writer.toString());
+			
+			multipart.addBodyPart(messageBodyPart);
+			
+			message.setContent(multipart);
+			Transport.send(message);
+			LOGGER.info("Sent message successfully...");
+		}
+		catch (MessagingException e) {
+			LOGGER.error("Error sending message", e);
+		}
+	}
+	
+	/**
+	 * Get the message text
+	 * 
+	 * @param resourceName THe name of the file to use as a template
+	 * @return The text
+	 * @throws IOException
+	 */
+	private String getMessageText(String resourceName) throws IOException {
+		InputStream is = this.getClass().getClassLoader().getResourceAsStream(resourceName);
+//		String msgText = Util.convertto
+		String msgText = convertStreamToString(is);
+		return msgText;
+		
+		// If we want to add arguments then we will need uncomment this and add the arguments input parameter
+//		String text = MessageFormat.format(msgText, arguments);
+//		
+//		return text;
+	}
+	
+	/**
+	 * Convert an input stream to a string
+	 * 
+	 * @param is The input stream
+	 * @return The string
+	 * @throws IOException
+	 */
+	private String convertStreamToString(InputStream is) throws IOException {
+		if (is == null) {
+			return "";
+		}
+		Scanner s = null;
+		try {
+			s = new Scanner(is, "UTF-8").useDelimiter("\\A");
+			return s.hasNext() ? s.next() : "";
+		}
+		finally {
+			is.close();
+			if (s != null) {
+				s.close();
+			}
+		}
+	}
+	
+	/**
+	 * Get the email session
+	 * 
+	 * @return The session
+	 */
+	private Session getSession() {
+		Properties properties = System.getProperties();
+		String mailServer = ScoapConfiguration.getProperty("staging", "mail.server");
+		if (mailServer != null) {
+			properties.setProperty("mail.smtp.host", mailServer);
+		}
+		
+		String port = ScoapConfiguration.getProperty("staging","mail.server.port");
+		if (port != null) {
+			properties.setProperty("mail.smtp.port", port);
+		}
+		
+		Session session = Session.getDefaultInstance(properties);
+		return session;
+	}
+	
+	/**
+	 * Get the email from address
+	 * 
+	 * @return The from address
+	 */
+	private String getFromAddress() {
+		String from = ScoapConfiguration.getProperty("staging", "mail.from.address");
+		return from;
+	}
+	
+	/**
+	 * Get the email recipients
+	 * 
+	 * @return The recipients
+	 */
+	private Set<String> getRecipients() {
+		String to = ScoapConfiguration.getProperty("staging", "mail.to.address");
+		
+		String[] addresses = to.split(",");
+		Set<String> recipients = new HashSet<String>();
+		for (String address : addresses) {
+			recipients.add(address.trim());
+		}
+		
+		return recipients;
 	}
 }

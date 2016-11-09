@@ -1,0 +1,7 @@
+Dear Repository Submitters,
+
+Please find attached the potential duplicate matches that were found during processing Scoap3 metadata
+
+Regards,
+
+The Open Research Team

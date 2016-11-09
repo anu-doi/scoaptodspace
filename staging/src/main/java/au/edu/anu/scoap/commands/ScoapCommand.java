@@ -47,16 +47,19 @@ public class ScoapCommand {
 		}
 		
 		//Check that the date is in a usable format
-		if (earliestDate != null) {
+		try {
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-			try {
+			if (earliestDate != null) {
 				sdf.parse(earliestDate);
+			}
+			if (latestDate != null) {
 				sdf.parse(latestDate);
 			}
-			catch (ParseException e) {
-				throw new ScoapCommandException("Incorrect date format");
-			}
 		}
+		catch (ParseException e) {
+			throw new ScoapCommandException("Incorrect date format");
+		}
+		
 		if (collectionName == null) {
 			collectionName = ScoapConfiguration.getProperty("staging", "sword.default.collection");
 		}

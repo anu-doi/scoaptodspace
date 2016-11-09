@@ -1,5 +1,6 @@
 package au.edu.anu.scoap.dspace;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -28,6 +29,8 @@ public class QueryDspace {
 	static final Logger LOGGER = LoggerFactory.getLogger(QueryDspace.class);
 	private static final double METRIC_MEASURE = 0.8;
 	
+	private List<String[]> matches = new ArrayList<String[]>();
+	
 	/**
 	 * Check how similar two Strings are via the Simon White method.
 	 * 
@@ -51,6 +54,10 @@ public class QueryDspace {
 	 */
 	public boolean checkForMatch(Record record) {
 		DSpaceObject dspaceObject = new DSpaceObject(record);
+		List<String> identifiers = dspaceObject.getIdentifiers();
+		String id = identifiers.get(0);
+		
+		matches.clear();
 		
 		SolrQuery solrQuery = new SolrQuery();
 		
@@ -99,12 +106,15 @@ public class QueryDspace {
 		
 		LOGGER.info("Searching solr: {}", solrQuery.toString());
 
+		boolean matchFound = false;
+		
 		String solrServerLocation = ScoapConfiguration.getProperty("dspace", "solr.server");
 		SolrServer solrServer = new HttpSolrServer(solrServerLocation);
 		try {
 			QueryResponse response = solrServer.query(solrQuery);
 			SolrDocumentList list = response.getResults();
 			Iterator<SolrDocument> it = list.iterator();
+			matches.clear();
 			while (it.hasNext()) {
 				SolrDocument doc = it.next();
 				String handle = (String) doc.get("handle");
@@ -113,7 +123,8 @@ public class QueryDspace {
 				if (idtitles != null && idtitles.size() > 0) {
 					if (performMetrics(title, idtitles.get(0))) {
 						LOGGER.debug("Potential match found with the handle {}. Comparison of \"{}\"  to \"{}\"", handle, title, idtitles.get(0));
-						return true;
+						matchFound = true;
+						matches.add(new String[]{handle,id});
 					}
 				}
 			}
@@ -122,6 +133,10 @@ public class QueryDspace {
 			LOGGER.error("Exception querying Solr", e);
 		}
 		
-		return false;
+		return matchFound;
+	}
+	
+	public List<String[]> getMatches() {
+		return matches;
 	}
 }
