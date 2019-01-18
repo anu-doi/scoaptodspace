@@ -1,6 +1,7 @@
 package au.edu.anu.scoap.dspace;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import au.edu.anu.scoap.dspace.annotation.DSpaceField;
@@ -210,5 +211,10 @@ public class DSpaceObject {
 		}
 		
 		return values;
+	}
+
+	@DSpaceField("local-description-notes")
+	public List<String> getNotes() {
+		return Arrays.asList("Imported from Scoap3");
 	}
 }
